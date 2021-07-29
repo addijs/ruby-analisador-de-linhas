@@ -11,5 +11,5 @@ linhas.each_with_index do |text, index|
 end
 
 array.each {
-    |analisador| p analisador.analyze
+    |analisador| puts "Linha #{analisador.num_linha} - Palavra(s): #{analisador.palavras_mais_frequentes.keys} | Frequencia: #{analisador.frequencia}"
 }
